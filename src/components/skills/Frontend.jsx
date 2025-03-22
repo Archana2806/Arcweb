@@ -10,45 +10,89 @@ const Frontend = () => {
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <h3 className="skills__name">HTML5 & CSS/SCSS</h3>
-                            <span className="skills__level">Advanced</span>
+                            <h3 className="skills__name">HTML,CSS</h3>
+                            {/* <span className="skills__level">Advanced</span> */}
                         </div>
                     </div>
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <h3 className="skills__name">JavaScript (ES6+)</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <h3 className="skills__name">JavaScript</h3>
                         </div>
                     </div>
-                    <div className="skills__data">
-                        <HiCheckBadge />
-                        <div>
-                            <h3 className="skills__name">Tailwind CSS & Bootstrap</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
-                <div className="skills__group">
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
                             <h3 className="skills__name">React.js</h3>
-                            <span className="skills__level">Intermediate</span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Vue.js</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Next.js</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Flutter</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Dart</h3>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div className="skills__group">
+                <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Bootstrap</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Tailwind CSS</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Material UI</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Vite</h3>
                         </div>
                     </div>
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
                             <h3 className="skills__name">Redux</h3>
-                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <h3 className="skills__name">GraphQL</h3>
-                            <span className="skills__level">Basic</span>
+                            <h3 className="skills__name">Axios</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Mocha / Chai</h3>
                         </div>
                     </div>
                 </div>

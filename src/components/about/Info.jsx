@@ -7,7 +7,7 @@ const Info = () => {
         <div className="about__box">
             <HiOutlineDesktopComputer className="about__icon" />
             <h3 className="about__title">Experience</h3>
-            <span className="about__subtitle">0 - 6 months</span>
+            <span className="about__subtitle">6 months</span>
         </div>
         <div className="about__box">
             <HiOutlineTerminal className="about__icon" />
@@ -17,7 +17,7 @@ const Info = () => {
         <div className="about__box">
             <HiOutlineSparkles className="about__icon" />
             <h3 className="about__title">Status</h3>
-            <span className="about__subtitle">Fresher</span>
+            <span className="about__subtitle">Graduate Trainee</span>
         </div>
     </div>
   );

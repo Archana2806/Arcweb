@@ -10,29 +10,43 @@ const Backend = () => {
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">Selenium</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <h3 className="skills__name">Git</h3>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
                         <h3 className="skills__name">Azure</h3>
-                        <span className="skills__level">Experienced</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">DevOps</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">Firebase</h3>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">AI & ML</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">AI & DS</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">HTTP/HTTPS</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">WebSockets</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Agile & Scrum</h3>
                     </div>
                 </div>
             </div>
@@ -40,22 +54,37 @@ const Backend = () => {
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">Git & Github</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <h3 className="skills__name">Selenium</h3>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">Tableau</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <h3 className="skills__name">OpenAPI</h3>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
                         <h3 className="skills__name">Postman</h3>
-                        <span className="skills__level">Basic</span>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Debugging</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Technical Writing</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Documentation</h3>
                     </div>
                 </div>
             </div>

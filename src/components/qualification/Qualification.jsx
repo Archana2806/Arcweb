@@ -29,12 +29,17 @@ const Qualification = () => {
 
     const renderWhiteDivContent = () => {
         switch (activeExperience) {
-            case "Foxconn":
+            case "Loop Express":
+                return <p>
+                    • Led the development of a multi-step seller onboarding system, integrating GST verification API to automate verification, reducing manual effort by up to 80%, and delivered a cross-platform mobile app (Android & iOS) using Flutter for a seamless onboarding experience.<br /><br />
+                    • Engineered a scalable product management system, capable of handling 500+ sellers, enabling efficient inventory management with MongoDB integration, optimizing update processes by up to 40%.<br /><br />
+                    • Designed and implemented secure APIs with JWT authentication & RBAC, ensuring data integrity, role-based access control, and protection against unauthorized access, scalable to handle thousands of secure transactions daily.</p>;
+            case "CTTC":
                 return <p>
                     • Acquired in-depth knowledge of machine learning principles and techniques, contributing to several high-impact projects focused on data analytics and research.<br /><br />
                     • Successfully applied algorithms such as KNN and CNN to image generation and lemmatization tasks, improving the accuracy and efficiency of data processing models.<br /><br />
                     • Conducted comprehensive data analysis using Tableau, transforming raw data into actionable insights with error rates consistently below 5%.</p>;
-            case "Layam":
+            case "Edureka":
                 return <p>
                     • Acquired in-depth knowledge of machine learning principles and techniques, contributing to several high-impact projects focused on data analytics and research.<br /><br />
                     • Successfully applied algorithms such as KNN and CNN to image generation and lemmatization tasks, improving the accuracy and efficiency of data processing models.<br /><br />
@@ -115,13 +120,14 @@ const Qualification = () => {
                     </div>
 
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
+                        {/* First Experience (Left) */}
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title" onClick={() => handleExperienceTitleClick("Foxconn")}>Machine Learning Intern</h3>
-                                <span className="qualification__subtitle">CTTC</span>
+                                <h3 className="qualification__title" onClick={() => handleExperienceTitleClick("Loop Express")}>Software Developer</h3>
+                                <span className="qualification__subtitle">Loop Express</span>
                                 <div className="qualification__calendar">
                                     <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    Oct 2023 - Dec 2023
+                                    Nov 2024 - Present
                                 </div>
                             </div>
                             <div>
@@ -129,6 +135,8 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                         </div>
+
+                        {/* Second Experience (Right) */}
                         <div className="qualification__data">
                             <div></div>
                             <div>
@@ -136,15 +144,32 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title" onClick={() => handleExperienceTitleClick("Layam")}>DS and ML Intern</h3>
+                                <h3 className="qualification__title" onClick={() => handleExperienceTitleClick("CTTC")}>Machine Learning Intern</h3>
+                                <span className="qualification__subtitle">CTTC</span>
+                                <div className="qualification__calendar">
+                                    <HiOutlineCalendar className="qualification__calendar-icon" />
+                                    Oct 2023 - Dec 2023
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Third Experience (Left) */}
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title" onClick={() => handleExperienceTitleClick("Edureka")}>DS and ML Intern</h3>
                                 <span className="qualification__subtitle">Edureka</span>
                                 <div className="qualification__calendar">
                                     <HiOutlineCalendar className="qualification__calendar-icon" />
                                     Apr 2023 - Aug 2023
                                 </div>
                             </div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
